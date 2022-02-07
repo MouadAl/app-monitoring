@@ -2,11 +2,13 @@
 ## What it does ? 
 The project is about monitoring a spring boot app deployed on a production server. Two metrics were  chosen  to track (CPU, MEMORY).
 I have collected data with Prometheus and  made a dashboard  to visualise it  using Grafana.
-Also, I have set an alert rule to send an email whenever the CPU usage is above 60%
-![pipeline-image](images/pipeline.jfif)
+Also, I have set an alert rule to send an email whenever the CPU usage is above 50% </br> </br>
+![dashboard](images/monitoring-app.png)
 
 
-![ci-cd-image](images/ci-cd.PNG)
+### Alert message: 
+
+![alert](images/alert.png)
 
 
 
@@ -35,7 +37,6 @@ step1: add the lines below to prometheus.yml
  step3: start Prometheus </br>
  
  step4: start Grafana: </br>
- 
  connect grafana with prometheus server </br>
  import the dashboard "memory-cpu-monitoring-dashboard" </br>
 
