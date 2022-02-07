@@ -8,7 +8,7 @@ Also, I have set an alert rule to send an email whenever the CPU usage is above 
 
 ### Alert message: 
 
-![alert](images/alert.png)
+![alert](images/alert1.png)
 
 
 
